@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<section id="navbar">
+		<div class="container-fluid">
+			<!-- Nav Bar -->
+			<nav class="navbar navbar-expand-lg navbar-dark">
+				<a class="navbar-brand" href="">TicTacToe</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="">Two Players</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="computer.html">You vs Computer</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</section>
+
+	<section id="game">
+		<div class="container-fluid">
+			<div class="row">
+				<h1 class="col-12 text-center"></h1>
+				<div class="col-6 text-left">
+					<h3>Player 1 (X)</h3>
+					<h5 id="playerOneScore">0</h5>
+				</div>
+				<div class="col-6 text-right">
+					<h3>Player 2(O)</h3>
+					<h5 id="playerTwoScore">0</h5>
+				</div>
+			</div>
+			<button id="reset" class="btn btn-info btn-lg">Reset</button>
+			<div class="row grid">
+				<button type="button" id="one" class="col-4 button"></button>
+				<button type="button" id="two" class="col-4 button"></button>
+				<button type="button" id="three" class="col-4 button"></button>
+				<button type="button" id="four" class="col-4 button"></button>
+				<button type="button" id="five" class="col-4 button"></button>
+				<button type="button" id="six" class="col-4 button"></button>
+				<button type="button" id="seven" class="col-4 button"></button>
+				<button type="button" id="eight" class="col-4 button"></button>
+				<button type="button" id="nine" class="col-4 button"></button>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+
+	<footer>
+		Made with ❤️ by Joshua Pregbaha.
+	</footer>
+</body>
+</html>
